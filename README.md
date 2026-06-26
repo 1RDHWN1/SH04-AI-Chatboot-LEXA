@@ -1,3 +1,5 @@
+# Note : Ini hanya untuk sementara
+
 # Chatbot Customer Service - Lexa 💬
 
 Lexa adalah chatbot asisten customer service yang dirancang untuk membantu menjawab pertanyaan pelanggan secara ramah, sopan, dan profesional. Proyek ini menggunakan **Groq Cloud API** dengan antarmuka berbasis **Streamlit** (UI) dan **Terminal (CLI)**.
