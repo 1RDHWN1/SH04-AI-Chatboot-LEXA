@@ -13,7 +13,7 @@ Chatbot ini memerlukan API Key dari Groq Cloud.
 * Silakan daftar dan ambil API Key Anda secara gratis di: **[Groq Console](https://console.groq.com/)**.
 
 ### 2. Bebas Memilih Model LLM
-Secara default, chatbot ini dikonfigurasi menggunakan model **`llama-3.3-70b-versatile`** karena kecepatannya. Namun, Anda dibebaskan untuk mengganti model apa pun yang didukung oleh Groq (seperti `llama-3.1-8b-instant`, `gemma2-9b-it`, dll.) melalui inisialisasi kelas `LexaChatbot` di kode Anda.
+Secara default, chatbot ini dikonfigurasi menggunakan model **`gpt-oss-120b`** karena kecepatannya. Namun, Anda dibebaskan untuk mengganti model apa pun yang didukung oleh Groq (seperti `llama-3.1-8b-instant`, `gemma2-9b-it`, dll.) melalui inisialisasi kelas `LexaChatbot` di kode Anda.
 
 ---
 
