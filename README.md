@@ -90,10 +90,3 @@ CHATBOT LEXA/
 ├── requirements.txt            # Daftar dependensi pustaka Python
 └── README.md                   # Panduan proyek ini
 ```
-
----
-
-## 🤝 Pembagian Kerja Tim (Batas Kolaborasi)
-* **LLM Engineer (Anda)**: Mengelola sistem prompt, pembuatan embeddings, vector database, logika chunking (`rag.py`), serta integrasi LLM (`llm.py`).
-* **Backend Engineer**: Menyediakan server API (misalnya memakai FastAPI/Node.js) untuk menghubungkan modul `LexaChatbot` dengan basis data utama (riwayat chat) dan autentikasi user.
-* **Frontend Engineer**: Membuat antarmuka UI chat widget interaktif di web SaaS utama dan mengalirkan respons teks secara *real-time*.
