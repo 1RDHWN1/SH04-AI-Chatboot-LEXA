@@ -65,7 +65,7 @@ Aplikasi web akan otomatis terbuka di browser Anda pada alamat `http://localhost
 ### B. Uji Coba Pencarian RAG (CLI)
 Untuk memverifikasi kecocokan pencarian dokumen dinamis secara terpisah di terminal:
 ```powershell
-.\.venv\Scripts\python.exe tests/scratch_pdf_test.py
+.\.venv\Scripts\python.exe llm_tests/scratch_pdf_test.py
 ```
 
 ---
@@ -82,7 +82,7 @@ CHATBOT LEXA/
 │   ├── features.md             # Data fitur-fitur utama SaaS
 │   ├── pricing.md              # Data daftar paket harga SaaS
 │   └── vector_index.pkl        # Berkas cache indeks vektor (permanen)
-├── tests/                      # Script Pengujian
+├── llm_tests/                  # Script Pengujian LLM
 │   ├── scratch_pdf_test.py     # Pengujian PDF / Dynamic RAG
 │   └── scratch_rag_test.py     # Pengujian static RAG
 ├── app.py                      # Aplikasi utama (Streamlit Web UI)
