@@ -4,3 +4,7 @@ streamlit
 sentence-transformers
 numpy
 pypdf
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
